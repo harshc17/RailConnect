@@ -1,0 +1,14 @@
+{
+  "name": "railconnect",
+  "version": "1.0.0",
+  "description": "RailConnect root orchestration",
+  "scripts": {
+    "setup": "npm install && npm install --prefix frontend && npm install --prefix backend",
+    "start": "concurrently \"npm run dev --prefix frontend\" \"npm run dev --prefix backend\"",
+    "dev": "concurrently \"npm run dev --prefix frontend\" \"npm run dev --prefix backend\"",
+    "build": "npm run build --prefix frontend"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}

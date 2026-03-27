@@ -1,0 +1,14 @@
+# RailConnect Project Prerequisites
+#
+# This file lists the system-level tools required to set up and run the application.
+# These are not installable via pip; please install them manually by following
+# the instructions in SETUP.md.
+
+# JavaScript runtime environment
+node>=16.0
+
+# Database server
+mysql-server>=8.0
+
+# Version control system
+git
